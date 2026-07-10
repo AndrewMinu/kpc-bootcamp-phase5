@@ -4,8 +4,7 @@
 ```bash
 npx skills@latest add <내-github-아이디>/kpc-bootcamp-phase5 -a codex -g -y
 ```
-- `-a codex` Codex 대상, `-g` 개인(어디서든), `-y` 확인 생략.
-- 그다음 Codex에서 `/skills` 확인 → `$bootcamp-guide` 로 진행.
+- 그다음 Codex에서 `/skills` 확인 → `$bootcamp-start` 로 시작.
 - 진행 상태(context.md)는 Codex 작업 폴더에 남아 단계가 바뀌어도 이어집니다.
 
 1단계(kpc-bootcamp-phase1)를 먼저 설치했어야 합니다.
@@ -13,4 +12,4 @@ npx skills@latest add <내-github-아이디>/kpc-bootcamp-phase5 -a codex -g -y
 
 ## 업데이트 / 폴백
 - 업데이트: `npx skills@latest update`
-- npx가 막히면 폴백: 이 레포 clone 후 `bash install.sh`
+- npx가 막히면: 이 레포 clone 후 `bash install.sh`
